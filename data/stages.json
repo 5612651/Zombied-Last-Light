@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "street",
+      "title": "雨夜街道",
+      "layout": "district",
+      "objective": {
+        "type": "clear"
+      },
+      "waves": [
+        {
+          "count": 10,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.42,
+          "delay": 1.5
+        },
+        {
+          "count": 18,
+          "normal": "normal",
+          "elite": "heavy",
+          "boss": "",
+          "interval": 0.42,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 40,
+        "research": 2
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "market",
+      "title": "商业街区",
+      "layout": "commercial",
+      "objective": {
+        "type": "clear"
+      },
+      "waves": [
+        {
+          "count": 30,
+          "normal": "normal",
+          "elite": "heavy",
+          "boss": "",
+          "interval": 0.14,
+          "delay": 1.5
+        },
+        {
+          "count": 30,
+          "normal": "normal",
+          "elite": "heavy",
+          "boss": "",
+          "interval": 0.14,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 60,
+        "research": 3
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "warden",
+      "title": "典狱长庭院",
+      "layout": "arena",
+      "objective": {
+        "type": "clear"
+      },
+      "waves": [
+        {
+          "count": 50,
+          "normal": "normal",
+          "elite": "heavy",
+          "boss": "",
+          "interval": 0.09,
+          "delay": 1.5
+        },
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "warden",
+          "interval": 0.42,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 80,
+        "research": 4
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "trial_clear",
+      "title": "入口 / 肃清区域",
+      "layout": "district",
+      "objective": {
+        "type": "clear",
+        "max_active": 24,
+        "spawn_interval": 0.75
+      },
+      "waves": [
+        {
+          "count": 12,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.4,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 40,
+        "research": 2
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "trial_survive",
+      "title": "坚守防线",
+      "layout": "district",
+      "objective": {
+        "type": "survive",
+        "duration": 90,
+        "max_active": 24,
+        "spawn_interval": 0.75
+      },
+      "waves": [
+        {
+          "count": 12,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.4,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 40,
+        "research": 2
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "trial_generator",
+      "title": "紧急供电",
+      "layout": "district",
+      "objective": {
+        "type": "generator",
+        "duration": 75,
+        "activation_seconds": 2,
+        "health": 240,
+        "max_active": 18,
+        "spawn_interval": 0.95
+      },
+      "waves": [
+        {
+          "count": 12,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.4,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 40,
+        "research": 2
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "trial_nests",
+      "title": "感染源",
+      "layout": "district",
+      "objective": {
+        "type": "nests",
+        "health": 160,
+        "positions": [
+          [
+            -6,
+            0.8,
+            -3
+          ],
+          [
+            6,
+            0.8,
+            -3
+          ],
+          [
+            0,
+            0.8,
+            -8
+          ]
+        ],
+        "max_active": 24,
+        "spawn_interval": 0.75
+      },
+      "waves": [
+        {
+          "count": 12,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.4,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 40,
+        "research": 2
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "threat_lab",
+      "title": "感染者威胁试炼",
+      "layout": "district",
+      "objective": {
+        "type": "clear"
+      },
+      "waves": [
+        {
+          "count": 6,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 1.2,
+          "delay": 2
+        },
+        {
+          "count": 6,
+          "normal": "runner",
+          "elite": "",
+          "boss": "",
+          "interval": 1.2,
+          "delay": 2
+        },
+        {
+          "count": 2,
+          "normal": "heavy",
+          "elite": "",
+          "boss": "",
+          "interval": 1.2,
+          "delay": 2
+        },
+        {
+          "count": 3,
+          "normal": "spitter",
+          "elite": "",
+          "boss": "",
+          "interval": 1.2,
+          "delay": 2
+        },
+        {
+          "count": 1,
+          "normal": "screamer",
+          "elite": "",
+          "boss": "",
+          "interval": 1.2,
+          "delay": 2
+        },
+        {
+          "count": 2,
+          "normal": "charger",
+          "elite": "",
+          "boss": "",
+          "interval": 1.2,
+          "delay": 2
+        },
+        {
+          "count": 1,
+          "normal": "elite_runner",
+          "elite": "",
+          "boss": "",
+          "interval": 1.2,
+          "delay": 2
+        }
+      ],
+      "reward": {
+        "supply": 40,
+        "research": 2
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0
+    },
+    {
+      "id": "pressure_lab",
+      "title": "动态尸潮试炼",
+      "layout": "district",
+      "objective": {
+        "type": "survive",
+        "duration": 90,
+        "spawn_interval": 0.45,
+        "max_active": 50
+      },
+      "waves": [
+        {
+          "count": 10,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.42,
+          "delay": 1.5
+        },
+        {
+          "count": 18,
+          "normal": "normal",
+          "elite": "heavy",
+          "boss": "",
+          "interval": 0.42,
+          "delay": 1.5
+        }
+      ],
+      "reward": {
+        "supply": 60,
+        "research": 3
+      },
+      "resupply": {
+        "health": 20,
+        "ar": 60,
+        "shotgun": 16
+      },
+      "upgrade_after_wave": 0,
+      "adaptive_mix": true,
+      "director_active": 32
+    },
+    {
+      "id": "rain_street",
+      "title": "雨夜街道",
+      "layout": "chapter_street",
+      "objective": {
+        "type": "sequence",
+        "missions": [
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 110,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.8,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "survive",
+            "duration": 120,
+            "spawn_interval": 0.65,
+            "max_active": 45,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 110,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.8,
+                "delay": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      "waves": [
+        {
+          "count": 110,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.8,
+          "delay": 1.5
+        },
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 110,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.8,
+          "delay": 1.5
+        }
+      ],
+      "adaptive_mix": true,
+      "enemy_weights": {
+        "normal": 70,
+        "runner": 25,
+        "heavy": 5
+      },
+      "director_active": 28,
+      "reward": {
+        "supply": 80,
+        "research": 5
+      },
+      "resupply": {
+        "health": 25,
+        "ar": 90,
+        "shotgun": 24
+      },
+      "upgrade_after_wave": 0,
+      "environment_props": [
+        {
+          "type": "car",
+          "position": [
+            -7,
+            0,
+            4
+          ]
+        },
+        {
+          "type": "barrel",
+          "position": [
+            5,
+            0,
+            4
+          ]
+        },
+        {
+          "type": "electric_box",
+          "position": [
+            -5,
+            0,
+            -5
+          ]
+        },
+        {
+          "type": "trash_bin",
+          "position": [
+            7,
+            0,
+            -5
+          ]
+        },
+        {
+          "type": "barrier",
+          "position": [
+            -4,
+            0,
+            9
+          ]
+        }
+      ],
+      "target_seconds": 300,
+      "optional": {
+        "type": "low_damage",
+        "threshold": 30,
+        "title": "可选目标 / 本区承伤不超过30点"
+      },
+      "rating_kills": 360
+    },
+    {
+      "id": "convenience_store",
+      "title": "终光便利店",
+      "layout": "chapter_shop",
+      "objective": {
+        "type": "sequence",
+        "missions": [
+          {
+            "type": "nests",
+            "health": 450,
+            "positions": [
+              [
+                -9,
+                0.8,
+                -5
+              ],
+              [
+                9,
+                0.8,
+                -5
+              ],
+              [
+                6,
+                0.8,
+                7
+              ]
+            ],
+            "spawn_interval": 0.65,
+            "max_active": 28,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "survive",
+            "duration": 120,
+            "spawn_interval": 0.65,
+            "max_active": 45,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 150,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      "waves": [
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 150,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        }
+      ],
+      "adaptive_mix": true,
+      "enemy_weights": {
+        "normal": 50,
+        "runner": 20,
+        "spitter": 20,
+        "screamer": 10
+      },
+      "director_active": 32,
+      "reward": {
+        "supply": 100,
+        "research": 6
+      },
+      "resupply": {
+        "health": 25,
+        "ar": 90,
+        "shotgun": 24
+      },
+      "upgrade_after_wave": 0,
+      "environment_props": [
+        {
+          "type": "glass",
+          "position": [
+            -3,
+            0,
+            7
+          ]
+        },
+        {
+          "type": "glass",
+          "position": [
+            3,
+            0,
+            7
+          ]
+        },
+        {
+          "type": "barrel",
+          "position": [
+            -9,
+            0,
+            3
+          ]
+        },
+        {
+          "type": "electric_box",
+          "position": [
+            9,
+            0,
+            -2
+          ]
+        },
+        {
+          "type": "trash_bin",
+          "position": [
+            -8,
+            0,
+            8
+          ]
+        }
+      ],
+      "target_seconds": 300,
+      "optional": {
+        "type": "destroy_props",
+        "threshold": 3,
+        "title": "可选目标 / 破坏3个环境危险物"
+      },
+      "rating_kills": 280
+    },
+    {
+      "id": "apartment_court",
+      "title": "公寓院落",
+      "layout": "chapter_apartments",
+      "objective": {
+        "type": "sequence",
+        "missions": [
+          {
+            "type": "generator",
+            "duration": 90,
+            "health": 800,
+            "activation_seconds": 2,
+            "position": [
+              0,
+              0.8,
+              -3
+            ],
+            "spawn_interval": 0.7,
+            "max_active": 32,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 140,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "survive",
+            "duration": 120,
+            "spawn_interval": 0.65,
+            "max_active": 45,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      "waves": [
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 140,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        }
+      ],
+      "adaptive_mix": true,
+      "enemy_weights": {
+        "normal": 45,
+        "runner": 20,
+        "screamer": 10,
+        "spitter": 10,
+        "heavy": 15
+      },
+      "director_active": 36,
+      "reward": {
+        "supply": 120,
+        "research": 7
+      },
+      "resupply": {
+        "health": 25,
+        "ar": 90,
+        "shotgun": 24
+      },
+      "upgrade_after_wave": 0,
+      "environment_props": [
+        {
+          "type": "electric_box",
+          "position": [
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "type": "barrel",
+          "position": [
+            -4,
+            0,
+            8
+          ]
+        },
+        {
+          "type": "trash_bin",
+          "position": [
+            4,
+            0,
+            8
+          ]
+        },
+        {
+          "type": "barrier",
+          "position": [
+            8,
+            0,
+            9
+          ]
+        }
+      ],
+      "target_seconds": 300,
+      "optional": {
+        "type": "generator_health",
+        "threshold": 0.6,
+        "title": "可选目标 / 发电机生命保持60%以上"
+      },
+      "rating_kills": 290
+    },
+    {
+      "id": "underground_garage",
+      "title": "地下停车场",
+      "layout": "chapter_garage",
+      "objective": {
+        "type": "sequence",
+        "missions": [
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 110,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "survive",
+            "duration": 120,
+            "spawn_interval": 0.65,
+            "max_active": 45,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 100,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      "waves": [
+        {
+          "count": 110,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 100,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        }
+      ],
+      "adaptive_mix": true,
+      "enemy_weights": {
+        "normal": 40,
+        "runner": 15,
+        "spitter": 15,
+        "charger": 20,
+        "heavy": 10
+      },
+      "director_active": 38,
+      "reward": {
+        "supply": 140,
+        "research": 8
+      },
+      "resupply": {
+        "health": 25,
+        "ar": 90,
+        "shotgun": 24
+      },
+      "upgrade_after_wave": 0,
+      "environment_props": [
+        {
+          "type": "car",
+          "position": [
+            -5,
+            0,
+            -1
+          ]
+        },
+        {
+          "type": "barrel",
+          "position": [
+            6,
+            0,
+            2
+          ]
+        },
+        {
+          "type": "electric_box",
+          "position": [
+            -10,
+            0,
+            8
+          ]
+        },
+        {
+          "type": "barrier",
+          "position": [
+            0,
+            0,
+            3
+          ]
+        }
+      ],
+      "target_seconds": 300,
+      "optional": {
+        "type": "low_damage",
+        "threshold": 40,
+        "title": "可选目标 / 本区承伤不超过40点"
+      },
+      "rating_kills": 350
+    },
+    {
+      "id": "gas_station",
+      "title": "北线加油站",
+      "layout": "chapter_fuel",
+      "objective": {
+        "type": "sequence",
+        "missions": [
+          {
+            "type": "nests",
+            "health": 450,
+            "positions": [
+              [
+                -8,
+                0.8,
+                3
+              ],
+              [
+                8,
+                0.8,
+                3
+              ],
+              [
+                -3,
+                0.8,
+                -7
+              ],
+              [
+                3,
+                0.8,
+                -7
+              ]
+            ],
+            "spawn_interval": 0.65,
+            "max_active": 28,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "generator",
+            "duration": 120,
+            "health": 800,
+            "activation_seconds": 2,
+            "position": [
+              0,
+              0.8,
+              -3
+            ],
+            "spawn_interval": 0.7,
+            "max_active": 32,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 160,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      "waves": [
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 160,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        }
+      ],
+      "adaptive_mix": true,
+      "enemy_weights": {
+        "normal": 45,
+        "runner": 20,
+        "spitter": 15,
+        "charger": 15,
+        "screamer": 5
+      },
+      "director_active": 40,
+      "reward": {
+        "supply": 160,
+        "research": 9
+      },
+      "resupply": {
+        "health": 25,
+        "ar": 90,
+        "shotgun": 24
+      },
+      "upgrade_after_wave": 0,
+      "environment_props": [
+        {
+          "type": "fuel_pump",
+          "position": [
+            -3,
+            0,
+            -2
+          ]
+        },
+        {
+          "type": "fuel_pump",
+          "position": [
+            3,
+            0,
+            -2
+          ]
+        },
+        {
+          "type": "fuel_pump",
+          "position": [
+            -3,
+            0,
+            3
+          ]
+        },
+        {
+          "type": "fuel_pump",
+          "position": [
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "type": "car",
+          "position": [
+            -8,
+            0,
+            7
+          ]
+        },
+        {
+          "type": "electric_box",
+          "position": [
+            8,
+            0,
+            -5
+          ]
+        },
+        {
+          "type": "trash_bin",
+          "position": [
+            -8,
+            0,
+            -4
+          ]
+        }
+      ],
+      "target_seconds": 300,
+      "optional": {
+        "type": "destroy_props",
+        "threshold": 4,
+        "title": "可选目标 / 破坏4个环境危险物"
+      },
+      "rating_kills": 310
+    },
+    {
+      "id": "evacuation",
+      "title": "撤离终点",
+      "layout": "chapter_evac",
+      "objective": {
+        "type": "sequence",
+        "missions": [
+          {
+            "type": "survive",
+            "duration": 90,
+            "spawn_interval": 0.65,
+            "max_active": 45,
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          },
+          {
+            "type": "clear",
+            "waves": [
+              {
+                "count": 1,
+                "normal": "normal",
+                "elite": "",
+                "boss": "chapter_warden",
+                "interval": 0.75,
+                "delay": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      "waves": [
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "",
+          "interval": 0.75,
+          "delay": 1.5
+        },
+        {
+          "count": 1,
+          "normal": "normal",
+          "elite": "",
+          "boss": "chapter_warden",
+          "interval": 0.75,
+          "delay": 1.5
+        }
+      ],
+      "adaptive_mix": true,
+      "enemy_weights": {
+        "normal": 40,
+        "runner": 25,
+        "spitter": 15,
+        "charger": 10,
+        "heavy": 10
+      },
+      "director_active": 45,
+      "reward": {
+        "supply": 240,
+        "research": 10
+      },
+      "resupply": {
+        "health": 25,
+        "ar": 90,
+        "shotgun": 24
+      },
+      "upgrade_after_wave": 0,
+      "environment_props": [
+        {
+          "type": "barrel",
+          "position": [
+            -7,
+            0,
+            -3
+          ]
+        },
+        {
+          "type": "barrel",
+          "position": [
+            7,
+            0,
+            -3
+          ]
+        },
+        {
+          "type": "electric_box",
+          "position": [
+            -7,
+            0,
+            7
+          ]
+        },
+        {
+          "type": "barrier",
+          "position": [
+            7,
+            0,
+            7
+          ]
+        }
+      ],
+      "target_seconds": 240,
+      "optional": {
+        "type": "boss_weak_hits",
+        "threshold": 10,
+        "title": "可选目标 / 命中首领弱点10次"
+      },
+      "rating_kills": 180
+    }
+  ]
+}

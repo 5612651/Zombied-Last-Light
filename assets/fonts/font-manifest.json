@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/notofonts/noto-cjk/tree/main/Sans",
+  "license": "SIL Open Font License 1.1",
+  "source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "output_sha256": "b961c4252fb9a1693c3d3fe4698c66e57db53310bc362b751b90efef956c3a2e",
+  "bytes": 247960,
+  "codepoints": 653,
+  "scope": "Run again whenever player-facing text adds characters. Copyright and license names retained in font metadata; OFL.txt accompanies the font."
+}

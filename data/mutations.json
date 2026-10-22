@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "vulcan_ar",
+      "weapon": "ar",
+      "title": "磁暴连射",
+      "description": "射速提高82%，伤害降低20%；散布更大，后坐力更轻。",
+      "min_kills": 30,
+      "min_perks": 2,
+      "requires_any": [
+        "fire_rate",
+        "kill_speed"
+      ],
+      "multipliers": {
+        "interval": 0.55,
+        "damage": 0.8,
+        "spread": 1.25,
+        "recoil": 0.65
+      },
+      "additions": {},
+      "tracer_color": "ffac61",
+      "visual_color": "805138"
+    },
+    {
+      "id": "heavy_ar",
+      "weapon": "ar",
+      "title": "重轨增幅",
+      "description": "伤害提高65%，穿透增加2层，冲击更强；射速降低23%。",
+      "min_kills": 30,
+      "min_perks": 2,
+      "requires_any": [
+        "pierce",
+        "heavy_rounds",
+        "deadeye"
+      ],
+      "multipliers": {
+        "damage": 1.65,
+        "interval": 1.3,
+        "knockback": 1.7,
+        "recoil": 1.3,
+        "shake": 1.2
+      },
+      "additions": {
+        "pierce": 2
+      },
+      "tracer_color": "ffe9a8",
+      "visual_color": "56584b"
+    },
+    {
+      "id": "auto_shotgun",
+      "weapon": "shotgun",
+      "title": "等离子连发",
+      "description": "射速翻倍，换弹更快；每枚弹丸伤害降低20%。",
+      "min_kills": 30,
+      "min_perks": 2,
+      "requires_any": [
+        "speed_sg",
+        "reload_sg",
+        "pellets"
+      ],
+      "multipliers": {
+        "interval": 0.48,
+        "damage": 0.8,
+        "spread": 1.15,
+        "reload": 0.85,
+        "knockback": 0.7
+      },
+      "additions": {},
+      "tracer_color": "c8e8d2",
+      "visual_color": "38685b"
+    },
+    {
+      "id": "breach_shotgun",
+      "weapon": "shotgun",
+      "title": "震荡破城",
+      "description": "额外发射四枚弹丸并大幅提升击退；射程缩短，射击节奏变慢。",
+      "min_kills": 30,
+      "min_perks": 2,
+      "requires_any": [
+        "impact_sg",
+        "close_sg",
+        "pellets"
+      ],
+      "multipliers": {
+        "knockback": 1.8,
+        "range": 0.75,
+        "interval": 1.2,
+        "reload": 1.1,
+        "recoil": 1.4,
+        "flash": 1.5
+      },
+      "additions": {
+        "pellets": 4
+      },
+      "tracer_color": "ffd27d",
+      "visual_color": "846b3a"
+    }
+  ]
+}

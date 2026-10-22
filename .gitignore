@@ -1,0 +1,8 @@
+.godot/
+*.blend1
+*.import
+builds/
+*.zip
+.env
+.env.*
+__pycache__/

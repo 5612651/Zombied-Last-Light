@@ -1,0 +1,60 @@
+{
+  "models": [
+    {
+      "id": "ar",
+      "serial": "XR-17",
+      "parts": 44,
+      "triangles": 8864,
+      "materials": 6,
+      "file": "assets/models/weapons/ar.glb",
+      "sha256": "5a2d5f2e280c84da596e7507ffab425d46109aff6c0dab8a1e8a5c7b81e5554e"
+    },
+    {
+      "id": "shotgun",
+      "serial": "SG-08",
+      "parts": 39,
+      "triangles": 7780,
+      "materials": 6,
+      "file": "assets/models/weapons/shotgun.glb",
+      "sha256": "f75814bf850ecea739afdb78a7e2fc4fdeccf55f92c175ae8917b2788f3ce648"
+    },
+    {
+      "id": "smg",
+      "serial": "VX-9",
+      "parts": 41,
+      "triangles": 8300,
+      "materials": 6,
+      "file": "assets/models/weapons/smg.glb",
+      "sha256": "108a6e7c0152ecb500ab77d51339348b460421448887d2c9081f54b961bd29c3"
+    },
+    {
+      "id": "magnum",
+      "serial": "M-6",
+      "parts": 46,
+      "triangles": 9000,
+      "materials": 6,
+      "file": "assets/models/weapons/magnum.glb",
+      "sha256": "b776b83444d2ca905d9499b652b6dfd4a163d2566e8bba0db98faa0f4b8e3b53"
+    },
+    {
+      "id": "lmg",
+      "serial": "H-249",
+      "parts": 50,
+      "triangles": 10136,
+      "materials": 6,
+      "file": "assets/models/weapons/lmg.glb",
+      "sha256": "b073b6cf231738270c5900cd682fe04db127f763926e5e60181598d8f6e628dc"
+    },
+    {
+      "id": "grenade_launcher",
+      "serial": "GL-32",
+      "parts": 41,
+      "triangles": 7820,
+      "materials": 6,
+      "file": "assets/models/weapons/grenade_launcher.glb",
+      "sha256": "e58db737ec3574a2c81f658db0c05a3ccb047403a600bdff0cb98a0d8f95c1d7"
+    }
+  ],
+  "source": "assets/weapon_studio_v4.blend",
+  "scope": "Blender-authored hard-surface models. Forward +Y in Blender, -Z in Godot after glTF export."
+}

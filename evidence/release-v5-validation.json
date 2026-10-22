@@ -1,0 +1,9 @@
+{
+  "zip_sha256": "3fba5254a48cb12984db25b35a540d3c0bb27c1339dbbd1df578cfe4af14c8e8",
+  "pck_sha256": "bd79132a4975c80ea0c3f95333a36faa659c7952af7a068030241b042df616c9",
+  "bytes": 60429619,
+  "extracted_files_match": true,
+  "rendered_release_captures": 9,
+  "hardware_report_matches_pack": true,
+  "scope": "Archive integrity, nine actual release captures and one GPU benchmark. v5 full-chapter real-time completion and external playtest acceptance remain unverified."
+}

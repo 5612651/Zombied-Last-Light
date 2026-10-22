@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "provenance": "Original procedural synthesis",
+  "runtime_format": "Ogg Vorbis",
+  "items": [
+    {
+      "id": "ambience",
+      "path": "res://assets/audio/ambience.ogg",
+      "seconds": 24.0,
+      "bytes": 134323
+    },
+    {
+      "id": "ar_crack",
+      "path": "res://assets/audio/ar_crack.ogg",
+      "seconds": 0.24,
+      "bytes": 5082
+    },
+    {
+      "id": "boss_warning",
+      "path": "res://assets/audio/boss_warning.ogg",
+      "seconds": 1.5,
+      "bytes": 12483
+    },
+    {
+      "id": "casing",
+      "path": "res://assets/audio/casing.ogg",
+      "seconds": 0.24,
+      "bytes": 4493
+    },
+    {
+      "id": "dash",
+      "path": "res://assets/audio/dash.ogg",
+      "seconds": 0.32997732426303855,
+      "bytes": 6052
+    },
+    {
+      "id": "elite_warning",
+      "path": "res://assets/audio/elite_warning.ogg",
+      "seconds": 1.1,
+      "bytes": 8826
+    },
+    {
+      "id": "grenade_explosion",
+      "path": "res://assets/audio/grenade_explosion.ogg",
+      "seconds": 0.8499773242630385,
+      "bytes": 9000
+    },
+    {
+      "id": "heavy_growl",
+      "path": "res://assets/audio/heavy_growl.ogg",
+      "seconds": 1.3999546485260772,
+      "bytes": 11941
+    },
+    {
+      "id": "hurt",
+      "path": "res://assets/audio/hurt.ogg",
+      "seconds": 0.5,
+      "bytes": 6855
+    },
+    {
+      "id": "impact",
+      "path": "res://assets/audio/impact.ogg",
+      "seconds": 0.22,
+      "bytes": 5288
+    },
+    {
+      "id": "indoor_room",
+      "path": "res://assets/audio/indoor_room.ogg",
+      "seconds": 16.0,
+      "bytes": 94726
+    },
+    {
+      "id": "infected_1",
+      "path": "res://assets/audio/infected_1.ogg",
+      "seconds": 1.1499773242630384,
+      "bytes": 10285
+    },
+    {
+      "id": "infected_2",
+      "path": "res://assets/audio/infected_2.ogg",
+      "seconds": 1.1499773242630384,
+      "bytes": 10240
+    },
+    {
+      "id": "infected_3",
+      "path": "res://assets/audio/infected_3.ogg",
+      "seconds": 1.1499773242630384,
+      "bytes": 10276
+    },
+    {
+      "id": "kill",
+      "path": "res://assets/audio/kill.ogg",
+      "seconds": 0.48,
+      "bytes": 6752
+    },
+    {
+      "id": "kill_stinger",
+      "path": "res://assets/audio/kill_stinger.ogg",
+      "seconds": 0.6499773242630386,
+      "bytes": 6969
+    },
+    {
+      "id": "launcher_thump",
+      "path": "res://assets/audio/launcher_thump.ogg",
+      "seconds": 0.44997732426303855,
+      "bytes": 6595
+    },
+    {
+      "id": "lmg_crack",
+      "path": "res://assets/audio/lmg_crack.ogg",
+      "seconds": 0.3,
+      "bytes": 5775
+    },
+    {
+      "id": "magnum_blast",
+      "path": "res://assets/audio/magnum_blast.ogg",
+      "seconds": 0.5,
+      "bytes": 6841
+    },
+    {
+      "id": "music_boss",
+      "path": "res://assets/audio/music_boss.ogg",
+      "seconds": 32.0,
+      "bytes": 186300
+    },
+    {
+      "id": "music_combat",
+      "path": "res://assets/audio/music_combat.ogg",
+      "seconds": 32.0,
+      "bytes": 166023
+    },
+    {
+      "id": "music_safe",
+      "path": "res://assets/audio/music_safe.ogg",
+      "seconds": 32.0,
+      "bytes": 174411
+    },
+    {
+      "id": "rain",
+      "path": "res://assets/audio/rain.ogg",
+      "seconds": 12.0,
+      "bytes": 78023
+    },
+    {
+      "id": "reload",
+      "path": "res://assets/audio/reload.ogg",
+      "seconds": 0.5,
+      "bytes": 7525
+    },
+    {
+      "id": "runner_yelp",
+      "path": "res://assets/audio/runner_yelp.ogg",
+      "seconds": 0.5,
+      "bytes": 6824
+    },
+    {
+      "id": "shotgun_blast",
+      "path": "res://assets/audio/shotgun_blast.ogg",
+      "seconds": 0.62,
+      "bytes": 7382
+    },
+    {
+      "id": "slow_motion",
+      "path": "res://assets/audio/slow_motion.ogg",
+      "seconds": 0.6,
+      "bytes": 7390
+    },
+    {
+      "id": "smg_crack",
+      "path": "res://assets/audio/smg_crack.ogg",
+      "seconds": 0.16997732426303855,
+      "bytes": 4990
+    },
+    {
+      "id": "upgrade",
+      "path": "res://assets/audio/upgrade.ogg",
+      "seconds": 0.9,
+      "bytes": 6292
+    },
+    {
+      "id": "weapon_mechanism",
+      "path": "res://assets/audio/weapon_mechanism.ogg",
+      "seconds": 0.12,
+      "bytes": 4627
+    }
+  ]
+}

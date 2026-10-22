@@ -1,0 +1,722 @@
+{
+  "size": [
+    36,
+    34
+  ],
+  "colliders": [
+    {
+      "name": "Perimeter",
+      "position": [
+        -14,
+        2.2,
+        -14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -14,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -10,
+        2.2,
+        -14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -10,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -6,
+        2.2,
+        -14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -6,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -2,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        2,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        6,
+        2.2,
+        -14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        6,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        10,
+        2.2,
+        -14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        10,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        14,
+        2.2,
+        -14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        14,
+        2.2,
+        14
+      ],
+      "size": [
+        3.96,
+        4.4,
+        0.6
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -16,
+        2.2,
+        -10
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        16,
+        2.2,
+        -10
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -16,
+        2.2,
+        -6
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        16,
+        2.2,
+        -6
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -16,
+        2.2,
+        -2
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        16,
+        2.2,
+        -2
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -16,
+        2.2,
+        2
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        16,
+        2.2,
+        2
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -16,
+        2.2,
+        6
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        16,
+        2.2,
+        6
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        -16,
+        2.2,
+        10
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Perimeter",
+      "position": [
+        16,
+        2.2,
+        10
+      ],
+      "size": [
+        0.6,
+        4.4,
+        3.96
+      ]
+    },
+    {
+      "name": "Kiosk",
+      "position": [
+        8,
+        1.8,
+        -10.8
+      ],
+      "size": [
+        8,
+        3.6,
+        4.5
+      ]
+    },
+    {
+      "name": "Cabinet",
+      "position": [
+        -14,
+        1.1,
+        -5
+      ],
+      "size": [
+        1.1,
+        2.2,
+        1.5
+      ]
+    },
+    {
+      "name": "Cabinet",
+      "position": [
+        -14,
+        1.1,
+        2
+      ],
+      "size": [
+        1.1,
+        2.2,
+        1.5
+      ]
+    },
+    {
+      "name": "Cabinet",
+      "position": [
+        -14,
+        1.1,
+        7
+      ],
+      "size": [
+        1.1,
+        2.2,
+        1.5
+      ]
+    },
+    {
+      "name": "Cabinet",
+      "position": [
+        14,
+        1.1,
+        -5
+      ],
+      "size": [
+        1.1,
+        2.2,
+        1.5
+      ]
+    },
+    {
+      "name": "Cabinet",
+      "position": [
+        14,
+        1.1,
+        2
+      ],
+      "size": [
+        1.1,
+        2.2,
+        1.5
+      ]
+    },
+    {
+      "name": "Cabinet",
+      "position": [
+        14,
+        1.1,
+        7
+      ],
+      "size": [
+        1.1,
+        2.2,
+        1.5
+      ]
+    },
+    {
+      "name": "Crate",
+      "position": [
+        -6.2,
+        0.5,
+        6
+      ],
+      "size": [
+        1.15,
+        1,
+        1.15
+      ]
+    },
+    {
+      "name": "Crate",
+      "position": [
+        -5,
+        0.5,
+        7.2
+      ],
+      "size": [
+        1.15,
+        1,
+        1.15
+      ]
+    },
+    {
+      "name": "Crate",
+      "position": [
+        5,
+        0.5,
+        -5.5
+      ],
+      "size": [
+        1.15,
+        1,
+        1.15
+      ]
+    },
+    {
+      "name": "Crate",
+      "position": [
+        6.2,
+        0.5,
+        -5.5
+      ],
+      "size": [
+        1.15,
+        1,
+        1.15
+      ]
+    },
+    {
+      "name": "Crate",
+      "position": [
+        -11,
+        0.5,
+        -9
+      ],
+      "size": [
+        1.15,
+        1,
+        1.15
+      ]
+    },
+    {
+      "name": "Crate",
+      "position": [
+        11,
+        0.5,
+        9
+      ],
+      "size": [
+        1.15,
+        1,
+        1.15
+      ]
+    },
+    {
+      "name": "Crate",
+      "position": [
+        -5,
+        0.5,
+        6
+      ],
+      "size": [
+        1.15,
+        1,
+        1.15
+      ]
+    },
+    {
+      "name": "Fence",
+      "position": [
+        -13,
+        1,
+        6
+      ],
+      "size": [
+        0.18,
+        2,
+        10
+      ]
+    },
+    {
+      "name": "Market booth",
+      "position": [
+        -8,
+        1.5,
+        -3
+      ],
+      "size": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Market booth",
+      "position": [
+        8,
+        1.5,
+        4
+      ],
+      "size": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Market booth",
+      "position": [
+        -8,
+        1.5,
+        6
+      ],
+      "size": [
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        0,
+        4.0,
+        -12.5
+      ],
+      "color": [
+        0.3,
+        0.85,
+        0.8
+      ],
+      "energy": 5,
+      "range": 9
+    },
+    {
+      "position": [
+        4,
+        2.6,
+        -7.9
+      ],
+      "color": [
+        1,
+        0.43,
+        0.15
+      ],
+      "energy": 4,
+      "range": 6
+    },
+    {
+      "position": [
+        12,
+        2.6,
+        -7.9
+      ],
+      "color": [
+        1,
+        0.43,
+        0.15
+      ],
+      "energy": 4,
+      "range": 6
+    },
+    {
+      "position": [
+        -9,
+        4.05,
+        4
+      ],
+      "color": [
+        1,
+        0.67,
+        0.36
+      ],
+      "energy": 5,
+      "range": 8
+    },
+    {
+      "position": [
+        13,
+        4.05,
+        -4
+      ],
+      "color": [
+        1,
+        0.67,
+        0.36
+      ],
+      "energy": 5,
+      "range": 8
+    },
+    {
+      "position": [
+        -10,
+        4.05,
+        -10
+      ],
+      "color": [
+        1,
+        0.67,
+        0.36
+      ],
+      "energy": 5,
+      "range": 8
+    },
+    {
+      "position": [
+        12,
+        4.05,
+        10
+      ],
+      "color": [
+        1,
+        0.67,
+        0.36
+      ],
+      "energy": 5,
+      "range": 8
+    },
+    {
+      "position": [
+        -8,
+        2.6,
+        -1
+      ],
+      "color": [
+        1,
+        0.55,
+        0.25
+      ],
+      "energy": 4,
+      "range": 6
+    },
+    {
+      "position": [
+        8,
+        2.6,
+        6
+      ],
+      "color": [
+        1,
+        0.55,
+        0.25
+      ],
+      "energy": 4,
+      "range": 6
+    },
+    {
+      "position": [
+        -8,
+        2.6,
+        8
+      ],
+      "color": [
+        1,
+        0.55,
+        0.25
+      ],
+      "energy": 4,
+      "range": 6
+    }
+  ]
+}

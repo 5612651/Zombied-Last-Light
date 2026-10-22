@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "prototype",
+      "title": "战斗试验场",
+      "playable": true,
+      "stages": [
+        "street",
+        "market",
+        "warden"
+      ],
+      "target_seconds": 180
+    },
+    {
+      "id": "chapter_01",
+      "title": "封锁之城",
+      "playable": true,
+      "stages": [
+        "rain_street",
+        "convenience_store",
+        "apartment_court",
+        "underground_garage",
+        "gas_station",
+        "evacuation"
+      ],
+      "target_seconds": 1800,
+      "target_range_seconds": [
+        1500,
+        2100
+      ]
+    },
+    {
+      "id": "objective_trials",
+      "title": "战地目标训练",
+      "playable": true,
+      "stages": [
+        "trial_clear",
+        "trial_survive",
+        "trial_generator",
+        "trial_nests"
+      ],
+      "target_seconds": 300
+    },
+    {
+      "id": "threat_trials",
+      "title": "感染者威胁试炼",
+      "playable": true,
+      "stages": [
+        "threat_lab"
+      ],
+      "target_seconds": 180
+    },
+    {
+      "id": "director_trials",
+      "title": "动态尸潮试炼",
+      "playable": true,
+      "stages": [
+        "pressure_lab"
+      ],
+      "target_seconds": 120
+    }
+  ]
+}

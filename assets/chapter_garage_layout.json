@@ -1,0 +1,1391 @@
+{
+  "title": "UNDERGROUND PARKING",
+  "size": [
+    32,
+    30
+  ],
+  "weather": "indoor",
+  "module_instances": [
+    {
+      "module": "parking_slab",
+      "position": [
+        -12,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -12,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -12,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -12,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -12,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -6,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -6,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -6,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -6,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        -6,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        0,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        0,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        0,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        6,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        6,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        6,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        6,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        6,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        12,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        12,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        12,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        12,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "parking_slab",
+      "position": [
+        12,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        -12,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        -8,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        -4,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        4,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        8,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        12,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        -12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        -8
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        -4
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        0
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        4
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        8
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -12,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -9,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -6,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -3,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        0,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        3,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        6,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        9,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        12,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -9
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -6
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -3
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        0
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        3
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        6
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        9
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "evac_sign",
+      "position": [
+        0,
+        0,
+        -12
+      ],
+      "rotation_y": 180
+    },
+    {
+      "module": "garage_column",
+      "position": [
+        -8,
+        0,
+        -7
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_light",
+      "position": [
+        -8,
+        0,
+        -7
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_column",
+      "position": [
+        -8,
+        0,
+        -1
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_light",
+      "position": [
+        -8,
+        0,
+        -1
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_column",
+      "position": [
+        -8,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_light",
+      "position": [
+        -8,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_column",
+      "position": [
+        8,
+        0,
+        -7
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_light",
+      "position": [
+        8,
+        0,
+        -7
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_column",
+      "position": [
+        8,
+        0,
+        -1
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_light",
+      "position": [
+        8,
+        0,
+        -1
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_column",
+      "position": [
+        8,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "garage_light",
+      "position": [
+        8,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "utility_van",
+      "position": [
+        -5,
+        0,
+        -7
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "utility_van",
+      "position": [
+        5,
+        0,
+        -3
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "utility_van",
+      "position": [
+        -5,
+        0,
+        4
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "utility_van",
+      "position": [
+        5,
+        0,
+        8
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "alley_pipe",
+      "position": [
+        -13.5,
+        0,
+        -8
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "alley_pipe",
+      "position": [
+        -13.5,
+        0,
+        0
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "alley_pipe",
+      "position": [
+        -13.5,
+        0,
+        8
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "district_sign",
+      "position": [
+        10,
+        0,
+        10
+      ],
+      "rotation_y": 0
+    }
+  ],
+  "colliders": [
+    {
+      "name": "wall_panel / 0",
+      "position": [
+        -12.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 1",
+      "position": [
+        -8.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 2",
+      "position": [
+        -4.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 3",
+      "position": [
+        4.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 4",
+      "position": [
+        8.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 5",
+      "position": [
+        12.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_window / 6",
+      "position": [
+        -14.0,
+        2,
+        -12.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 7",
+      "position": [
+        -14.0,
+        2,
+        -8.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 8",
+      "position": [
+        -14.0,
+        2,
+        -4.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 9",
+      "position": [
+        -14.0,
+        2,
+        0.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 10",
+      "position": [
+        -14.0,
+        2,
+        4.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 11",
+      "position": [
+        -14.0,
+        2,
+        8.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 12",
+      "position": [
+        -14.0,
+        2,
+        12.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "low_barrier / 13",
+      "position": [
+        -12.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 14",
+      "position": [
+        -9.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 15",
+      "position": [
+        -6.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 16",
+      "position": [
+        -3.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 17",
+      "position": [
+        0.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 18",
+      "position": [
+        3.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 19",
+      "position": [
+        6.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 20",
+      "position": [
+        9.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 21",
+      "position": [
+        12.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 22",
+      "position": [
+        14.0,
+        0.45,
+        -12.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 23",
+      "position": [
+        14.0,
+        0.45,
+        -9.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 24",
+      "position": [
+        14.0,
+        0.45,
+        -6.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 25",
+      "position": [
+        14.0,
+        0.45,
+        -3.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 26",
+      "position": [
+        14.0,
+        0.45,
+        0.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 27",
+      "position": [
+        14.0,
+        0.45,
+        3.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 28",
+      "position": [
+        14.0,
+        0.45,
+        6.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 29",
+      "position": [
+        14.0,
+        0.45,
+        9.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 30",
+      "position": [
+        14.0,
+        0.45,
+        12.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "evac_sign / 31",
+      "position": [
+        0.0,
+        1.5,
+        -12.0
+      ],
+      "size": [
+        2.2,
+        3,
+        0.2000000000000003
+      ]
+    },
+    {
+      "name": "garage_column / 32",
+      "position": [
+        -8.0,
+        2.2,
+        -7.0
+      ],
+      "size": [
+        0.7,
+        4.4,
+        0.7
+      ]
+    },
+    {
+      "name": "garage_column / 33",
+      "position": [
+        -8.0,
+        2.2,
+        -1.0
+      ],
+      "size": [
+        0.7,
+        4.4,
+        0.7
+      ]
+    },
+    {
+      "name": "garage_column / 34",
+      "position": [
+        -8.0,
+        2.2,
+        5.0
+      ],
+      "size": [
+        0.7,
+        4.4,
+        0.7
+      ]
+    },
+    {
+      "name": "garage_column / 35",
+      "position": [
+        8.0,
+        2.2,
+        -7.0
+      ],
+      "size": [
+        0.7,
+        4.4,
+        0.7
+      ]
+    },
+    {
+      "name": "garage_column / 36",
+      "position": [
+        8.0,
+        2.2,
+        -1.0
+      ],
+      "size": [
+        0.7,
+        4.4,
+        0.7
+      ]
+    },
+    {
+      "name": "garage_column / 37",
+      "position": [
+        8.0,
+        2.2,
+        5.0
+      ],
+      "size": [
+        0.7,
+        4.4,
+        0.7
+      ]
+    },
+    {
+      "name": "utility_van / 38",
+      "position": [
+        -5.0,
+        0.8,
+        -7.0
+      ],
+      "size": [
+        3.6,
+        1.6,
+        1.8000000000000003
+      ]
+    },
+    {
+      "name": "utility_van / 39",
+      "position": [
+        5.0,
+        0.8,
+        -3.0
+      ],
+      "size": [
+        3.6,
+        1.6,
+        1.8000000000000003
+      ]
+    },
+    {
+      "name": "utility_van / 40",
+      "position": [
+        -5.0,
+        0.8,
+        4.0
+      ],
+      "size": [
+        3.6,
+        1.6,
+        1.8000000000000003
+      ]
+    },
+    {
+      "name": "utility_van / 41",
+      "position": [
+        5.0,
+        0.8,
+        8.0
+      ],
+      "size": [
+        3.6,
+        1.6,
+        1.8000000000000003
+      ]
+    },
+    {
+      "name": "alley_pipe / 42",
+      "position": [
+        -13.5,
+        1.5,
+        -8.0
+      ],
+      "size": [
+        0.35000000000000003,
+        3,
+        0.7
+      ]
+    },
+    {
+      "name": "alley_pipe / 43",
+      "position": [
+        -13.5,
+        1.5,
+        0.0
+      ],
+      "size": [
+        0.35000000000000003,
+        3,
+        0.7
+      ]
+    },
+    {
+      "name": "alley_pipe / 44",
+      "position": [
+        -13.5,
+        1.5,
+        8.0
+      ],
+      "size": [
+        0.35000000000000003,
+        3,
+        0.7
+      ]
+    },
+    {
+      "name": "district_sign / 45",
+      "position": [
+        10.0,
+        1.5,
+        10.0
+      ],
+      "size": [
+        2.2,
+        3,
+        0.2
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        -8,
+        3.5,
+        -7
+      ],
+      "color": [
+        0.3,
+        0.75,
+        0.7
+      ],
+      "energy": 5,
+      "range": 10
+    },
+    {
+      "position": [
+        -8,
+        3.5,
+        -1
+      ],
+      "color": [
+        0.3,
+        0.75,
+        0.7
+      ],
+      "energy": 5,
+      "range": 10
+    },
+    {
+      "position": [
+        -8,
+        3.5,
+        5
+      ],
+      "color": [
+        0.3,
+        0.75,
+        0.7
+      ],
+      "energy": 5,
+      "range": 10
+    },
+    {
+      "position": [
+        8,
+        3.5,
+        -7
+      ],
+      "color": [
+        0.3,
+        0.75,
+        0.7
+      ],
+      "energy": 5,
+      "range": 10
+    },
+    {
+      "position": [
+        8,
+        3.5,
+        -1
+      ],
+      "color": [
+        0.3,
+        0.75,
+        0.7
+      ],
+      "energy": 5,
+      "range": 10
+    },
+    {
+      "position": [
+        8,
+        3.5,
+        5
+      ],
+      "color": [
+        0.3,
+        0.75,
+        0.7
+      ],
+      "energy": 5,
+      "range": 10
+    }
+  ],
+  "triangles": 12960,
+  "module_count": 77
+}

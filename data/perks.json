@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "pierce",
+      "title": "贯穿弹道",
+      "category": "弹道 / 战地强化",
+      "description": "子弹额外穿透一个敌人。",
+      "effects": {
+        "pierce": 1
+      },
+      "family": "ballistic",
+      "max_stacks": 1
+    },
+    {
+      "id": "fire_rate",
+      "title": "极速扳机",
+      "category": "弹道 / 战地强化",
+      "description": "武器射速提高25%。",
+      "effects": {
+        "fire_rate": 0.25
+      },
+      "family": "ballistic",
+      "max_stacks": 1
+    },
+    {
+      "id": "pellets",
+      "title": "扩容弹丸",
+      "category": "霰弹 / 战地强化",
+      "description": "霰弹枪每次射击额外发射两枚弹丸。",
+      "effects": {
+        "pellets": 2
+      },
+      "family": "shotgun",
+      "max_stacks": 1
+    },
+    {
+      "id": "head_blast",
+      "title": "爆头引爆",
+      "category": "爆破 / 战地强化",
+      "description": "爆头击杀引爆目标周围的感染者。",
+      "effects": {
+        "head_blast_damage": 35,
+        "head_blast_radius": 3.5,
+        "head_blast_force": 6
+      },
+      "family": "explosion",
+      "max_stacks": 1
+    },
+    {
+      "id": "heal_kill",
+      "title": "浴血回生",
+      "category": "生存 / 战地强化",
+      "description": "每次击杀恢复2点生命。",
+      "effects": {
+        "heal_on_kill": 2
+      },
+      "family": "survival",
+      "max_stacks": 1
+    },
+    {
+      "id": "ricochet",
+      "title": "致命弹射",
+      "category": "电能 / 战地强化",
+      "description": "暴击弹射至附近目标，造成65%基础伤害。",
+      "effects": {
+        "ricochet_damage": 0.65,
+        "ricochet_radius": 5
+      },
+      "family": "electric",
+      "max_stacks": 1
+    },
+    {
+      "id": "dash_wave",
+      "title": "破阵冲刺",
+      "category": "生存 / 战地强化",
+      "description": "冲刺伤害并击退周围敌人。",
+      "effects": {
+        "dash_wave_damage": 30,
+        "dash_wave_radius": 4.5,
+        "dash_wave_force": 10
+      },
+      "family": "survival",
+      "max_stacks": 1
+    },
+    {
+      "id": "kill_speed",
+      "title": "杀戮狂潮",
+      "category": "弹道 / 战地强化",
+      "description": "击杀后获得25%射速加成，持续3秒。",
+      "effects": {
+        "kill_speed_rate": 0.25,
+        "kill_speed_duration": 3
+      },
+      "family": "ballistic",
+      "max_stacks": 1
+    },
+    {
+      "id": "burn",
+      "title": "燃烧弹头",
+      "category": "燃烧 / 战地强化",
+      "description": "射击点燃敌人，持续3秒。",
+      "effects": {
+        "burn_duration": 3,
+        "burn_damage": 6,
+        "burn_interval": 0.4
+      },
+      "family": "fire",
+      "max_stacks": 1
+    },
+    {
+      "id": "reload_wave",
+      "title": "震荡换弹",
+      "category": "生存 / 战地强化",
+      "description": "换弹时释放击退周围敌人的冲击波。",
+      "effects": {
+        "reload_wave_damage": 18,
+        "reload_wave_radius": 4,
+        "reload_wave_force": 8
+      },
+      "family": "survival",
+      "max_stacks": 1
+    },
+    {
+      "id": "deadeye",
+      "title": "鹰眼锁定",
+      "family": "ballistic",
+      "category": "弹道 / 战地强化",
+      "description": "暴击率提高15%。",
+      "effects": {
+        "crit_chance": 0.15
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "heavy_rounds",
+      "title": "重型弹头",
+      "family": "ballistic",
+      "category": "弹道 / 战地强化",
+      "description": "所有子弹伤害提高20%。",
+      "effects": {
+        "damage_mult": 0.2
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "impact_sg",
+      "title": "破门重击",
+      "family": "shotgun",
+      "category": "霰弹 / 战地强化",
+      "description": "霰弹枪击退强度提高75%。",
+      "effects": {
+        "shotgun_knockback": 0.75
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "close_sg",
+      "title": "贴身处决",
+      "family": "shotgun",
+      "category": "霰弹 / 战地强化",
+      "description": "六米内的霰弹枪伤害提高40%。",
+      "effects": {
+        "shotgun_close_damage": 0.4
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "reload_sg",
+      "title": "快速装填",
+      "family": "shotgun",
+      "category": "霰弹 / 战地强化",
+      "description": "霰弹枪换弹时间缩短30%。",
+      "effects": {
+        "shotgun_reload": 0.3
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "speed_sg",
+      "title": "高速泵动",
+      "family": "shotgun",
+      "category": "霰弹 / 战地强化",
+      "description": "霰弹枪射速提高25%。",
+      "effects": {
+        "shotgun_rate": 0.25
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "fire_spread",
+      "title": "燎原之火",
+      "family": "fire",
+      "category": "燃烧 / 战地强化",
+      "description": "击杀燃烧目标时，将火焰传播至四米内敌人。",
+      "effects": {
+        "fire_spread_radius": 4
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "burn"
+      ]
+    },
+    {
+      "id": "fire_damage",
+      "title": "铝热弹剂",
+      "family": "fire",
+      "category": "燃烧 / 战地强化",
+      "description": "每次燃烧伤害提高6点。",
+      "effects": {
+        "burn_damage": 6
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "burn"
+      ]
+    },
+    {
+      "id": "fire_linger",
+      "title": "余烬延烧",
+      "family": "fire",
+      "category": "燃烧 / 战地强化",
+      "description": "燃烧持续时间延长2秒。",
+      "effects": {
+        "burn_duration": 2
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "burn"
+      ]
+    },
+    {
+      "id": "fire_reload",
+      "title": "热浪排放",
+      "family": "fire",
+      "category": "燃烧 / 战地强化",
+      "description": "换弹时点燃附近感染者。",
+      "effects": {
+        "fire_reload_radius": 4.5
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "burn"
+      ]
+    },
+    {
+      "id": "lightning",
+      "title": "连锁电弧",
+      "family": "electric",
+      "category": "电能 / 战地强化",
+      "description": "射击有概率将电弧传导至附近两个敌人。",
+      "effects": {
+        "electric_chance": 0.25,
+        "electric_targets": 2,
+        "electric_damage": 18,
+        "electric_radius": 4,
+        "electric_stun": 0.35
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "conductor",
+      "title": "超导回路",
+      "family": "electric",
+      "category": "电能 / 战地强化",
+      "description": "闪电额外传导至两个目标。",
+      "effects": {
+        "electric_targets": 2
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "lightning"
+      ]
+    },
+    {
+      "id": "overload",
+      "title": "电能过载",
+      "family": "electric",
+      "category": "电能 / 战地强化",
+      "description": "闪电伤害提高14点，眩晕延长0.4秒。",
+      "effects": {
+        "electric_damage": 14,
+        "electric_stun": 0.4
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "lightning"
+      ]
+    },
+    {
+      "id": "static_dash",
+      "title": "闪电突进",
+      "family": "electric",
+      "category": "电能 / 战地强化",
+      "description": "冲刺向附近敌人释放电弧并造成眩晕。",
+      "effects": {
+        "static_dash_damage": 24,
+        "static_dash_targets": 6,
+        "static_dash_radius": 4,
+        "static_dash_stun": 1.1
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "blast_radius",
+      "title": "广域爆破",
+      "family": "explosion",
+      "category": "爆破 / 战地强化",
+      "description": "爆炸半径扩大50%。",
+      "effects": {
+        "blast_radius_mult": 0.5
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "head_blast",
+        "death_blast",
+        "crit_blast"
+      ]
+    },
+    {
+      "id": "blast_damage",
+      "title": "超压装药",
+      "family": "explosion",
+      "category": "爆破 / 战地强化",
+      "description": "爆炸伤害提高40%。",
+      "effects": {
+        "blast_damage_mult": 0.4
+      },
+      "max_stacks": 1,
+      "requires_any": [
+        "head_blast",
+        "death_blast",
+        "crit_blast"
+      ]
+    },
+    {
+      "id": "death_blast",
+      "title": "死亡开关",
+      "family": "explosion",
+      "category": "爆破 / 战地强化",
+      "description": "击杀有概率引发近距离爆炸。",
+      "effects": {
+        "death_blast_chance": 0.25,
+        "death_blast_damage": 35,
+        "death_blast_radius": 2.5
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "crit_blast",
+      "title": "高爆射击",
+      "family": "explosion",
+      "category": "爆破 / 战地强化",
+      "description": "暴击有概率引爆目标周围区域。",
+      "effects": {
+        "crit_blast_chance": 0.3,
+        "crit_blast_damage": 25,
+        "crit_blast_radius": 2.8
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "armor",
+      "title": "战地装甲",
+      "family": "survival",
+      "category": "生存 / 战地强化",
+      "description": "获得30点保护护甲。",
+      "effects": {
+        "armor_max": 30,
+        "grant_armor": 30
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    },
+    {
+      "id": "dash_cd",
+      "title": "轻盈步伐",
+      "family": "survival",
+      "category": "生存 / 战地强化",
+      "description": "冲刺冷却缩短25%。",
+      "effects": {
+        "dash_cooldown": 0.25
+      },
+      "max_stacks": 1,
+      "requires_any": []
+    }
+  ]
+}

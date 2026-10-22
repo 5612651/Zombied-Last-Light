@@ -1,0 +1,14 @@
+{
+  "cost": 60,
+  "rare_pity": 10,
+  "weights": {
+    "weapon": 10,
+    "trait": 20,
+    "blueprints": 45,
+    "supply": 25
+  },
+  "blueprints": 12,
+  "duplicate_weapon_blueprints": 25,
+  "duplicate_trait_supply": 35,
+  "supply_reward": 25
+}

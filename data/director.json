@@ -1,0 +1,18 @@
+{
+  "sample_interval": 0.5,
+  "base_active": 32,
+  "recovery_active": 8,
+  "max_active": 100,
+  "recovery_health": 0.3,
+  "recovery_ammo": 0.12,
+  "recovery_gap": 6.0,
+  "elite_limit": 2,
+  "enemy_weights": {
+    "normal": 55,
+    "runner": 20,
+    "spitter": 10,
+    "screamer": 5,
+    "charger": 7,
+    "heavy": 3
+  }
+}

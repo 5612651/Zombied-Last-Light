@@ -1,0 +1,56 @@
+[
+  {
+    "id": "briefing",
+    "title": "开始任务",
+    "position": [
+      -6,
+      0,
+      -6
+    ]
+  },
+  {
+    "id": "armory",
+    "title": "武器库",
+    "position": [
+      1,
+      0,
+      -6
+    ]
+  },
+  {
+    "id": "crates",
+    "title": "军械箱",
+    "position": [
+      7,
+      0,
+      -5
+    ]
+  },
+  {
+    "id": "research",
+    "title": "研究台",
+    "position": [
+      -7,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "records",
+    "title": "闯关记录",
+    "position": [
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "settings",
+    "title": "游戏设置",
+    "position": [
+      7,
+      0,
+      3
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "types": {
+    "car": {
+      "health": 180,
+      "size": [
+        1.8,
+        1.5,
+        3.6
+      ],
+      "effect": "blast",
+      "radius": 5.5,
+      "damage": 180,
+      "force": 18,
+      "player_damage": 35,
+      "warning": 0.75,
+      "color": "8f4b36"
+    },
+    "barrel": {
+      "health": 40,
+      "size": [
+        0.75,
+        1.2,
+        0.75
+      ],
+      "effect": "blast",
+      "radius": 4.5,
+      "damage": 130,
+      "force": 12,
+      "player_damage": 28,
+      "warning": 0.65,
+      "color": "a44e31"
+    },
+    "electric_box": {
+      "health": 60,
+      "size": [
+        1.1,
+        1.5,
+        0.65
+      ],
+      "effect": "electric",
+      "radius": 4.5,
+      "damage": 60,
+      "force": 2,
+      "player_damage": 12,
+      "warning": 0.65,
+      "stun": 1.8,
+      "color": "3f7770"
+    },
+    "fuel_pump": {
+      "health": 100,
+      "size": [
+        1.1,
+        1.8,
+        0.8
+      ],
+      "effect": "blast",
+      "radius": 6,
+      "damage": 220,
+      "force": 18,
+      "player_damage": 40,
+      "warning": 0.9,
+      "color": "ae5f3d"
+    },
+    "glass": {
+      "health": 1,
+      "size": [
+        2.5,
+        2.2,
+        0.1
+      ],
+      "effect": "shatter",
+      "color": "9fc5be"
+    },
+    "trash_bin": {
+      "health": 35,
+      "size": [
+        0.8,
+        1.1,
+        0.8
+      ],
+      "effect": "movable",
+      "mass": 8,
+      "color": "42635a"
+    },
+    "barrier": {
+      "health": 65,
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ],
+      "effect": "movable",
+      "mass": 18,
+      "color": "a78d5b"
+    }
+  },
+  "placements": [
+    {
+      "type": "car",
+      "position": [
+        -4.5,
+        0,
+        8
+      ]
+    },
+    {
+      "type": "barrel",
+      "position": [
+        -4,
+        0,
+        2
+      ]
+    },
+    {
+      "type": "electric_box",
+      "position": [
+        4,
+        0,
+        -4
+      ]
+    },
+    {
+      "type": "fuel_pump",
+      "position": [
+        -5,
+        0,
+        -9
+      ]
+    },
+    {
+      "type": "glass",
+      "position": [
+        5,
+        0,
+        -9
+      ]
+    },
+    {
+      "type": "trash_bin",
+      "position": [
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "barrier",
+      "position": [
+        -5,
+        0,
+        -6
+      ]
+    }
+  ]
+}

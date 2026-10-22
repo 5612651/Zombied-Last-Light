@@ -1,0 +1,145 @@
+{
+  "normal_hit": {
+    "priority": 1,
+    "hold_ms": 4,
+    "shake": 0.01,
+    "slow_ms": 0,
+    "cooldown_ms": 45,
+    "sound": "impact",
+    "volume": -18,
+    "vfx": "blood",
+    "color": "7e2527"
+  },
+  "critical": {
+    "priority": 3,
+    "hold_ms": 8,
+    "shake": 0.035,
+    "slow_ms": 0,
+    "cooldown_ms": 65,
+    "sound": "impact",
+    "volume": -13,
+    "vfx": "blood",
+    "color": "e8c581"
+  },
+  "headshot": {
+    "priority": 4,
+    "hold_ms": 16,
+    "shake": 0.06,
+    "slow_ms": 0,
+    "cooldown_ms": 70,
+    "sound": "impact",
+    "volume": -11,
+    "vfx": "blood_heavy",
+    "color": "eeb583"
+  },
+  "elite_kill": {
+    "priority": 8,
+    "hold_ms": 30,
+    "shake": 0.18,
+    "slow_ms": 220,
+    "cooldown_ms": 250,
+    "sound": "kill",
+    "volume": -8,
+    "vfx": "shockwave",
+    "color": "e8af64"
+  },
+  "multi_kill": {
+    "priority": 6,
+    "hold_ms": 18,
+    "shake": 0.12,
+    "slow_ms": 120,
+    "cooldown_ms": 400,
+    "sound": "kill",
+    "volume": -10,
+    "vfx": "shockwave",
+    "color": "b8d8b2"
+  },
+  "boss_weak": {
+    "priority": 7,
+    "hold_ms": 20,
+    "shake": 0.11,
+    "slow_ms": 80,
+    "cooldown_ms": 120,
+    "sound": "impact",
+    "volume": -9,
+    "vfx": "sparks",
+    "color": "ffe5a2"
+  },
+  "explosion": {
+    "priority": 5,
+    "hold_ms": 5,
+    "shake": 0.025,
+    "slow_ms": 0,
+    "cooldown_ms": 80,
+    "sound": "impact",
+    "volume": -16,
+    "vfx": "sparks",
+    "color": "eeb25f"
+  },
+  "elemental": {
+    "priority": 2,
+    "hold_ms": 0,
+    "shake": 0,
+    "slow_ms": 0,
+    "cooldown_ms": 100,
+    "sound": "impact",
+    "volume": -23,
+    "vfx": "sparks",
+    "color": "8fcebc"
+  },
+  "kill": {
+    "priority": 2,
+    "hold_ms": 0,
+    "shake": 0.02,
+    "slow_ms": 0,
+    "cooldown_ms": 65,
+    "sound": "kill",
+    "volume": -18,
+    "vfx": "none",
+    "color": "b8d8b2"
+  },
+  "detonation": {
+    "priority": 6,
+    "hold_ms": 10,
+    "shake": 0.14,
+    "slow_ms": 0,
+    "cooldown_ms": 100,
+    "sound": "grenade_explosion",
+    "volume": -9,
+    "vfx": "shockwave",
+    "color": "eeb25f"
+  },
+  "player_hurt": {
+    "priority": 5,
+    "hold_ms": 0,
+    "shake": 0.23,
+    "slow_ms": 0,
+    "cooldown_ms": 150,
+    "sound": "hurt",
+    "volume": -8,
+    "vfx": "none",
+    "color": "a84c43"
+  },
+  "boss_slam": {
+    "priority": 9,
+    "hold_ms": 28,
+    "shake": 0.3,
+    "slow_ms": 120,
+    "cooldown_ms": 300,
+    "sound": "shotgun_blast",
+    "volume": -8,
+    "vfx": "shockwave",
+    "color": "d68c4d"
+  },
+  "dash": {
+    "priority": 1,
+    "hold_ms": 0,
+    "shake": 0.08,
+    "slow_ms": 0,
+    "cooldown_ms": 200,
+    "sound": "dash",
+    "volume": -10,
+    "vfx": "none",
+    "color": "a3d5bd"
+  }
+}

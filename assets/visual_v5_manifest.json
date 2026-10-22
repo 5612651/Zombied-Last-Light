@@ -1,0 +1,41 @@
+{
+  "maps": [
+    {
+      "layout": "chapter_apartments",
+      "triangles": 88580,
+      "materials": 14,
+      "colliders": "unchanged original layout"
+    },
+    {
+      "layout": "chapter_evac",
+      "triangles": 58412,
+      "materials": 17,
+      "colliders": "unchanged original layout"
+    },
+    {
+      "layout": "chapter_fuel",
+      "triangles": 53800,
+      "materials": 16,
+      "colliders": "unchanged original layout"
+    },
+    {
+      "layout": "chapter_garage",
+      "triangles": 59096,
+      "materials": 16,
+      "colliders": "unchanged original layout"
+    },
+    {
+      "layout": "chapter_shop",
+      "triangles": 76484,
+      "materials": 18,
+      "colliders": "unchanged original layout"
+    },
+    {
+      "layout": "chapter_street",
+      "triangles": 79920,
+      "materials": 19,
+      "colliders": "unchanged original layout"
+    }
+  ],
+  "source": "assets/modular_library_v5.blend"
+}

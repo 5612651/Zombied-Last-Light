@@ -1,0 +1,953 @@
+{
+  "schema_version": 1,
+  "units": "meters",
+  "up_axis": "Y",
+  "forward_axis": "-Z",
+  "modules": [
+    {
+      "id": "road_plain",
+      "category": "Road",
+      "path": "res://assets/models/kit/road_plain.glb",
+      "size": [
+        6,
+        0.14,
+        6
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 44,
+      "source_objects": 1
+    },
+    {
+      "id": "road_straight",
+      "category": "Road",
+      "path": "res://assets/models/kit/road_straight.glb",
+      "size": [
+        6,
+        0.14,
+        6
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 80,
+      "source_objects": 4
+    },
+    {
+      "id": "road_crossing",
+      "category": "Road",
+      "path": "res://assets/models/kit/road_crossing.glb",
+      "size": [
+        6,
+        0.14,
+        6
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 104,
+      "source_objects": 6
+    },
+    {
+      "id": "parking_slab",
+      "category": "Road",
+      "path": "res://assets/models/kit/parking_slab.glb",
+      "size": [
+        6,
+        0.14,
+        6
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 80,
+      "source_objects": 4
+    },
+    {
+      "id": "landing_pad",
+      "category": "Road",
+      "path": "res://assets/models/kit/landing_pad.glb",
+      "size": [
+        6,
+        0.14,
+        6
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 128,
+      "source_objects": 8
+    },
+    {
+      "id": "sidewalk",
+      "category": "Sidewalk",
+      "path": "res://assets/models/kit/sidewalk.glb",
+      "size": [
+        2,
+        0.14,
+        4
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 136,
+      "source_objects": 6
+    },
+    {
+      "id": "sidewalk_corner",
+      "category": "Sidewalk",
+      "path": "res://assets/models/kit/sidewalk_corner.glb",
+      "size": [
+        4,
+        0.14,
+        4
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 136,
+      "source_objects": 6
+    },
+    {
+      "id": "wall_panel",
+      "category": "Wall",
+      "path": "res://assets/models/kit/wall_panel.glb",
+      "size": [
+        4,
+        4,
+        0.5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "size": [
+            4,
+            4,
+            0.4
+          ]
+        }
+      ],
+      "triangles": 132,
+      "source_objects": 3
+    },
+    {
+      "id": "wall_window",
+      "category": "Wall",
+      "path": "res://assets/models/kit/wall_window.glb",
+      "size": [
+        4,
+        4,
+        0.5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "size": [
+            4,
+            4,
+            0.4
+          ]
+        }
+      ],
+      "triangles": 308,
+      "source_objects": 7
+    },
+    {
+      "id": "garage_column",
+      "category": "Wall",
+      "path": "res://assets/models/kit/garage_column.glb",
+      "size": [
+        0.8,
+        4.4,
+        0.8
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            2.2,
+            0
+          ],
+          "size": [
+            0.7,
+            4.4,
+            0.7
+          ]
+        }
+      ],
+      "triangles": 176,
+      "source_objects": 4
+    },
+    {
+      "id": "low_barrier",
+      "category": "Wall",
+      "path": "res://assets/models/kit/low_barrier.glb",
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.45,
+            0
+          ],
+          "size": [
+            2.4,
+            0.9,
+            0.65
+          ]
+        }
+      ],
+      "triangles": 44,
+      "source_objects": 1
+    },
+    {
+      "id": "shop_front",
+      "category": "Shop",
+      "path": "res://assets/models/kit/shop_front.glb",
+      "size": [
+        6.7,
+        3.5,
+        5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.7,
+            0
+          ],
+          "size": [
+            6,
+            3.4,
+            4
+          ]
+        }
+      ],
+      "triangles": 3204,
+      "source_objects": 8
+    },
+    {
+      "id": "pharmacy_front",
+      "category": "Shop",
+      "path": "res://assets/models/kit/pharmacy_front.glb",
+      "size": [
+        6.7,
+        3.5,
+        5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.7,
+            0
+          ],
+          "size": [
+            6,
+            3.4,
+            4
+          ]
+        }
+      ],
+      "triangles": 1984,
+      "source_objects": 8
+    },
+    {
+      "id": "checkpoint_bunker",
+      "category": "Shop",
+      "path": "res://assets/models/kit/checkpoint_bunker.glb",
+      "size": [
+        6.7,
+        3.5,
+        5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.7,
+            0
+          ],
+          "size": [
+            6,
+            3.4,
+            4
+          ]
+        }
+      ],
+      "triangles": 2436,
+      "source_objects": 8
+    },
+    {
+      "id": "station_canopy",
+      "category": "Shop",
+      "path": "res://assets/models/kit/station_canopy.glb",
+      "size": [
+        12,
+        4.4,
+        8
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            -5.5,
+            2.1,
+            -3
+          ],
+          "size": [
+            0.25,
+            4.2,
+            0.25
+          ]
+        },
+        {
+          "position": [
+            -5.5,
+            2.1,
+            3
+          ],
+          "size": [
+            0.25,
+            4.2,
+            0.25
+          ]
+        },
+        {
+          "position": [
+            5.5,
+            2.1,
+            -3
+          ],
+          "size": [
+            0.25,
+            4.2,
+            0.25
+          ]
+        },
+        {
+          "position": [
+            5.5,
+            2.1,
+            3
+          ],
+          "size": [
+            0.25,
+            4.2,
+            0.25
+          ]
+        }
+      ],
+      "triangles": 1796,
+      "source_objects": 10
+    },
+    {
+      "id": "apartment_block",
+      "category": "Apartment",
+      "path": "res://assets/models/kit/apartment_block.glb",
+      "size": [
+        6.5,
+        8.2,
+        5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            4.0,
+            0
+          ],
+          "size": [
+            6,
+            8,
+            4.5
+          ]
+        }
+      ],
+      "triangles": 1012,
+      "source_objects": 23
+    },
+    {
+      "id": "apartment_red",
+      "category": "Apartment",
+      "path": "res://assets/models/kit/apartment_red.glb",
+      "size": [
+        6.5,
+        7.7,
+        5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            3.75,
+            0
+          ],
+          "size": [
+            6,
+            7.5,
+            4.5
+          ]
+        }
+      ],
+      "triangles": 1012,
+      "source_objects": 23
+    },
+    {
+      "id": "alley_pipe",
+      "category": "Alley",
+      "path": "res://assets/models/kit/alley_pipe.glb",
+      "size": [
+        0.7,
+        3,
+        0.4
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "size": [
+            0.7,
+            3,
+            0.35
+          ]
+        }
+      ],
+      "triangles": 220,
+      "source_objects": 5
+    },
+    {
+      "id": "alley_stairs",
+      "category": "Alley",
+      "path": "res://assets/models/kit/alley_stairs.glb",
+      "size": [
+        1.8,
+        1.8,
+        3.3
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.9,
+            0
+          ],
+          "size": [
+            1.8,
+            1.8,
+            3.3
+          ]
+        }
+      ],
+      "triangles": 308,
+      "source_objects": 7
+    },
+    {
+      "id": "chain_fence",
+      "category": "Fence",
+      "path": "res://assets/models/kit/chain_fence.glb",
+      "size": [
+        4.2,
+        2.4,
+        0.15
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.2,
+            0
+          ],
+          "size": [
+            4,
+            2.4,
+            0.12
+          ]
+        }
+      ],
+      "triangles": 304,
+      "source_objects": 12
+    },
+    {
+      "id": "metal_gate",
+      "category": "Fence",
+      "path": "res://assets/models/kit/metal_gate.glb",
+      "size": [
+        4.2,
+        2.4,
+        0.15
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.2,
+            0
+          ],
+          "size": [
+            4,
+            2.4,
+            0.12
+          ]
+        }
+      ],
+      "triangles": 612,
+      "source_objects": 19
+    },
+    {
+      "id": "compact_car",
+      "category": "Vehicle",
+      "path": "res://assets/models/kit/compact_car.glb",
+      "size": [
+        2,
+        1.7,
+        3.7
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.8,
+            0
+          ],
+          "size": [
+            1.8,
+            1.6,
+            3.6
+          ]
+        }
+      ],
+      "triangles": 396,
+      "source_objects": 9
+    },
+    {
+      "id": "utility_van",
+      "category": "Vehicle",
+      "path": "res://assets/models/kit/utility_van.glb",
+      "size": [
+        2,
+        1.7,
+        3.7
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.8,
+            0
+          ],
+          "size": [
+            1.8,
+            1.6,
+            3.6
+          ]
+        }
+      ],
+      "triangles": 396,
+      "source_objects": 9
+    },
+    {
+      "id": "street_lamp",
+      "category": "Lamp",
+      "path": "res://assets/models/kit/street_lamp.glb",
+      "size": [
+        1.6,
+        5,
+        0.5
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            2.5,
+            0
+          ],
+          "size": [
+            0.2,
+            5,
+            0.2
+          ]
+        }
+      ],
+      "triangles": 176,
+      "source_objects": 4
+    },
+    {
+      "id": "garage_light",
+      "category": "Lamp",
+      "path": "res://assets/models/kit/garage_light.glb",
+      "size": [
+        2.2,
+        3.9,
+        0.4
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 88,
+      "source_objects": 2
+    },
+    {
+      "id": "trash_bin",
+      "category": "Trash",
+      "path": "res://assets/models/kit/trash_bin.glb",
+      "size": [
+        0.8,
+        1.1,
+        0.8
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.55,
+            0
+          ],
+          "size": [
+            0.8,
+            1.1,
+            0.8
+          ]
+        }
+      ],
+      "triangles": 132,
+      "source_objects": 3
+    },
+    {
+      "id": "oil_barrel",
+      "category": "Trash",
+      "path": "res://assets/models/kit/oil_barrel.glb",
+      "size": [
+        0.8,
+        1.2,
+        0.8
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.6,
+            0
+          ],
+          "size": [
+            0.8,
+            1.2,
+            0.8
+          ]
+        }
+      ],
+      "triangles": 132,
+      "source_objects": 3
+    },
+    {
+      "id": "supply_crate",
+      "category": "Trash",
+      "path": "res://assets/models/kit/supply_crate.glb",
+      "size": [
+        1.6,
+        1.2,
+        1.2
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.6,
+            0
+          ],
+          "size": [
+            1.6,
+            1.2,
+            1.2
+          ]
+        }
+      ],
+      "triangles": 132,
+      "source_objects": 3
+    },
+    {
+      "id": "electric_box",
+      "category": "Trash",
+      "path": "res://assets/models/kit/electric_box.glb",
+      "size": [
+        1.1,
+        1.5,
+        0.65
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.75,
+            0
+          ],
+          "size": [
+            1.1,
+            1.5,
+            0.65
+          ]
+        }
+      ],
+      "triangles": 1092,
+      "source_objects": 4
+    },
+    {
+      "id": "fuel_pump",
+      "category": "Shop",
+      "path": "res://assets/models/kit/fuel_pump.glb",
+      "size": [
+        1.2,
+        1.8,
+        0.8
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.9,
+            0
+          ],
+          "size": [
+            1.2,
+            1.8,
+            0.8
+          ]
+        }
+      ],
+      "triangles": 176,
+      "source_objects": 4
+    },
+    {
+      "id": "shelf",
+      "category": "Shop",
+      "path": "res://assets/models/kit/shelf.glb",
+      "size": [
+        3,
+        2.4,
+        0.8
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.2,
+            0
+          ],
+          "size": [
+            3,
+            2.4,
+            0.8
+          ]
+        }
+      ],
+      "triangles": 968,
+      "source_objects": 22
+    },
+    {
+      "id": "glass_panel",
+      "category": "Shop",
+      "path": "res://assets/models/kit/glass_panel.glb",
+      "size": [
+        2.5,
+        2.2,
+        0.1
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.1,
+            0
+          ],
+          "size": [
+            2.5,
+            2.2,
+            0.1
+          ]
+        }
+      ],
+      "triangles": 132,
+      "source_objects": 3
+    },
+    {
+      "id": "evac_sign",
+      "category": "Sign",
+      "path": "res://assets/models/kit/evac_sign.glb",
+      "size": [
+        3.1,
+        3,
+        0.25
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "size": [
+            2.2,
+            3,
+            0.2
+          ]
+        }
+      ],
+      "triangles": 1512,
+      "source_objects": 4
+    },
+    {
+      "id": "district_sign",
+      "category": "Sign",
+      "path": "res://assets/models/kit/district_sign.glb",
+      "size": [
+        3.1,
+        3,
+        0.25
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "size": [
+            2.2,
+            3,
+            0.2
+          ]
+        }
+      ],
+      "triangles": 1880,
+      "source_objects": 4
+    },
+    {
+      "id": "pharmacy_sign",
+      "category": "Sign",
+      "path": "res://assets/models/kit/pharmacy_sign.glb",
+      "size": [
+        3.1,
+        3,
+        0.25
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "size": [
+            2.2,
+            3,
+            0.2
+          ]
+        }
+      ],
+      "triangles": 2724,
+      "source_objects": 4
+    },
+    {
+      "id": "planter",
+      "category": "Vegetation",
+      "path": "res://assets/models/kit/planter.glb",
+      "size": [
+        2,
+        1.2,
+        1
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            0.6,
+            0
+          ],
+          "size": [
+            2,
+            1.2,
+            1
+          ]
+        }
+      ],
+      "triangles": 220,
+      "source_objects": 5
+    },
+    {
+      "id": "small_tree",
+      "category": "Vegetation",
+      "path": "res://assets/models/kit/small_tree.glb",
+      "size": [
+        3,
+        4,
+        3
+      ],
+      "pivot": "ground-center",
+      "colliders": [
+        {
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "size": [
+            0.4,
+            3,
+            0.4
+          ]
+        }
+      ],
+      "triangles": 104,
+      "source_objects": 4
+    },
+    {
+      "id": "wall_vines",
+      "category": "Vegetation",
+      "path": "res://assets/models/kit/wall_vines.glb",
+      "size": [
+        2,
+        3,
+        0.2
+      ],
+      "pivot": "ground-center",
+      "colliders": [],
+      "triangles": 176,
+      "source_objects": 4
+    }
+  ]
+}

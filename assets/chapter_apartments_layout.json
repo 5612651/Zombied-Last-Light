@@ -1,0 +1,1330 @@
+{
+  "title": "APARTMENT COURTYARD",
+  "size": [
+    32,
+    30
+  ],
+  "weather": "rain",
+  "module_instances": [
+    {
+      "module": "road_plain",
+      "position": [
+        -12,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -12,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -12,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -12,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -12,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -6,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -6,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -6,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -6,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        -6,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        0,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        0,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        0,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        6,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        6,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        6,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        6,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        6,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        12,
+        0,
+        -12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        12,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        12,
+        0,
+        0
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        12,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "road_plain",
+      "position": [
+        12,
+        0,
+        12
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        -12,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        -8,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        -4,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        4,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        8,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_panel",
+      "position": [
+        12,
+        0,
+        -14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        -12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        -8
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        -4
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        0
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        4
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        8
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_window",
+      "position": [
+        -14,
+        0,
+        12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -12,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -9,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -6,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        -3,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        0,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        3,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        6,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        9,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        12,
+        0,
+        14
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -9
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -6
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        -3
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        0
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        3
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        6
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        9
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "low_barrier",
+      "position": [
+        14,
+        0,
+        12
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "evac_sign",
+      "position": [
+        0,
+        0,
+        -12
+      ],
+      "rotation_y": 180
+    },
+    {
+      "module": "apartment_red",
+      "position": [
+        -8,
+        0,
+        -10.8
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "apartment_red",
+      "position": [
+        8,
+        0,
+        -10.8
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "apartment_block",
+      "position": [
+        -11,
+        0,
+        -2
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "planter",
+      "position": [
+        -6,
+        0,
+        -4
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "small_tree",
+      "position": [
+        -6,
+        0,
+        -4
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "planter",
+      "position": [
+        6,
+        0,
+        -4
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "small_tree",
+      "position": [
+        6,
+        0,
+        -4
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "planter",
+      "position": [
+        -6,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "small_tree",
+      "position": [
+        -6,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "planter",
+      "position": [
+        6,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "small_tree",
+      "position": [
+        6,
+        0,
+        5
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "street_lamp",
+      "position": [
+        -10,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "street_lamp",
+      "position": [
+        10,
+        0,
+        6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "wall_vines",
+      "position": [
+        -13.7,
+        1,
+        -6
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_vines",
+      "position": [
+        -13.7,
+        1,
+        0
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "wall_vines",
+      "position": [
+        -13.7,
+        1,
+        6
+      ],
+      "rotation_y": 90
+    },
+    {
+      "module": "chain_fence",
+      "position": [
+        0,
+        0,
+        -6
+      ],
+      "rotation_y": 0
+    },
+    {
+      "module": "alley_pipe",
+      "position": [
+        -7,
+        0,
+        -8
+      ],
+      "rotation_y": 0
+    }
+  ],
+  "colliders": [
+    {
+      "name": "wall_panel / 0",
+      "position": [
+        -12.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 1",
+      "position": [
+        -8.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 2",
+      "position": [
+        -4.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 3",
+      "position": [
+        4.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 4",
+      "position": [
+        8.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_panel / 5",
+      "position": [
+        12.0,
+        2,
+        -14.0
+      ],
+      "size": [
+        4.0,
+        4,
+        0.4
+      ]
+    },
+    {
+      "name": "wall_window / 6",
+      "position": [
+        -14.0,
+        2,
+        -12.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 7",
+      "position": [
+        -14.0,
+        2,
+        -8.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 8",
+      "position": [
+        -14.0,
+        2,
+        -4.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 9",
+      "position": [
+        -14.0,
+        2,
+        0.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 10",
+      "position": [
+        -14.0,
+        2,
+        4.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 11",
+      "position": [
+        -14.0,
+        2,
+        8.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "wall_window / 12",
+      "position": [
+        -14.0,
+        2,
+        12.0
+      ],
+      "size": [
+        0.40000000000000024,
+        4,
+        4.0
+      ]
+    },
+    {
+      "name": "low_barrier / 13",
+      "position": [
+        -12.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 14",
+      "position": [
+        -9.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 15",
+      "position": [
+        -6.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 16",
+      "position": [
+        -3.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 17",
+      "position": [
+        0.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 18",
+      "position": [
+        3.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 19",
+      "position": [
+        6.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 20",
+      "position": [
+        9.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 21",
+      "position": [
+        12.0,
+        0.45,
+        14.0
+      ],
+      "size": [
+        2.4,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "name": "low_barrier / 22",
+      "position": [
+        14.0,
+        0.45,
+        -12.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 23",
+      "position": [
+        14.0,
+        0.45,
+        -9.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 24",
+      "position": [
+        14.0,
+        0.45,
+        -6.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 25",
+      "position": [
+        14.0,
+        0.45,
+        -3.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 26",
+      "position": [
+        14.0,
+        0.45,
+        0.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 27",
+      "position": [
+        14.0,
+        0.45,
+        3.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 28",
+      "position": [
+        14.0,
+        0.45,
+        6.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 29",
+      "position": [
+        14.0,
+        0.45,
+        9.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "low_barrier / 30",
+      "position": [
+        14.0,
+        0.45,
+        12.0
+      ],
+      "size": [
+        0.6500000000000001,
+        0.9,
+        2.4
+      ]
+    },
+    {
+      "name": "evac_sign / 31",
+      "position": [
+        0.0,
+        1.5,
+        -12.0
+      ],
+      "size": [
+        2.2,
+        3,
+        0.2000000000000003
+      ]
+    },
+    {
+      "name": "apartment_red / 32",
+      "position": [
+        -8.0,
+        3.75,
+        -10.8
+      ],
+      "size": [
+        6.0,
+        7.5,
+        4.5
+      ]
+    },
+    {
+      "name": "apartment_red / 33",
+      "position": [
+        8.0,
+        3.75,
+        -10.8
+      ],
+      "size": [
+        6.0,
+        7.5,
+        4.5
+      ]
+    },
+    {
+      "name": "apartment_block / 34",
+      "position": [
+        -11.0,
+        4.0,
+        -2.0
+      ],
+      "size": [
+        4.5,
+        8,
+        6.0
+      ]
+    },
+    {
+      "name": "planter / 35",
+      "position": [
+        -6.0,
+        0.6,
+        -4.0
+      ],
+      "size": [
+        2.0,
+        1.2,
+        1.0
+      ]
+    },
+    {
+      "name": "small_tree / 36",
+      "position": [
+        -6.0,
+        1.5,
+        -4.0
+      ],
+      "size": [
+        0.4,
+        3,
+        0.4
+      ]
+    },
+    {
+      "name": "planter / 37",
+      "position": [
+        6.0,
+        0.6,
+        -4.0
+      ],
+      "size": [
+        2.0,
+        1.2,
+        1.0
+      ]
+    },
+    {
+      "name": "small_tree / 38",
+      "position": [
+        6.0,
+        1.5,
+        -4.0
+      ],
+      "size": [
+        0.4,
+        3,
+        0.4
+      ]
+    },
+    {
+      "name": "planter / 39",
+      "position": [
+        -6.0,
+        0.6,
+        5.0
+      ],
+      "size": [
+        2.0,
+        1.2,
+        1.0
+      ]
+    },
+    {
+      "name": "small_tree / 40",
+      "position": [
+        -6.0,
+        1.5,
+        5.0
+      ],
+      "size": [
+        0.4,
+        3,
+        0.4
+      ]
+    },
+    {
+      "name": "planter / 41",
+      "position": [
+        6.0,
+        0.6,
+        5.0
+      ],
+      "size": [
+        2.0,
+        1.2,
+        1.0
+      ]
+    },
+    {
+      "name": "small_tree / 42",
+      "position": [
+        6.0,
+        1.5,
+        5.0
+      ],
+      "size": [
+        0.4,
+        3,
+        0.4
+      ]
+    },
+    {
+      "name": "street_lamp / 43",
+      "position": [
+        -10.0,
+        2.5,
+        6.0
+      ],
+      "size": [
+        0.2,
+        5,
+        0.2
+      ]
+    },
+    {
+      "name": "street_lamp / 44",
+      "position": [
+        10.0,
+        2.5,
+        6.0
+      ],
+      "size": [
+        0.2,
+        5,
+        0.2
+      ]
+    },
+    {
+      "name": "chain_fence / 45",
+      "position": [
+        0.0,
+        1.2,
+        -6.0
+      ],
+      "size": [
+        4.0,
+        2.4,
+        0.12
+      ]
+    },
+    {
+      "name": "alley_pipe / 46",
+      "position": [
+        -7.0,
+        1.5,
+        -8.0
+      ],
+      "size": [
+        0.7,
+        3,
+        0.35
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        -10,
+        4,
+        6
+      ],
+      "color": [
+        1,
+        0.5,
+        0.25
+      ],
+      "energy": 4,
+      "range": 12
+    },
+    {
+      "position": [
+        10,
+        4,
+        6
+      ],
+      "color": [
+        1,
+        0.5,
+        0.25
+      ],
+      "energy": 4,
+      "range": 12
+    }
+  ],
+  "triangles": 12088,
+  "module_count": 75
+}
